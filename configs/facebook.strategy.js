@@ -3,7 +3,7 @@ const FacebookStrategy = require('passport-facebook').Strategy;
 
 passport.use(new FacebookStrategy({
   clientID: '321916411808431',
-  clientSecret: '9ee048505997ed4193a93487115ea0d2',
+  clientSecret: 'chave',
   callbackURL: "http://localhost:3000/auth/facebook/callback"
   //enableProof: true
 },

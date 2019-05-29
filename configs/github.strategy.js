@@ -3,7 +3,7 @@ const GitHubStrategy = require('passport-github').Strategy;
 
 passport.use(new GitHubStrategy({
     clientID: 'Iv1.2c132e53d8da7820',
-    clientSecret: '36b1217a17d1908732f0b3d21e875d23b1c0ebb5',
+    clientSecret: 'chave',
     callbackURL: "http://localhost:3000/auth/github/callback"
   },
   function(accessToken, refreshToken, profile, cb) {
